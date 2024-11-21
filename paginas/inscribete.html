@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosotros</title>
+    <link rel="stylesheet" href="../css/cabecera.css">
+    <link rel="stylesheet" href="../css/stylecontactos.css">
+</head>
+<body>
+    <header>
+        <h2 class="titulo">Make up</h2>
+        <nav class="navigation">
+            <a href="../index.html">Inicio</a>
+            <a href="../paginas/nosotros.html">Nosotros</a>
+            <a href="../paginas/make up.html">Producto</a>
+            <a href="../paginas/inscribete.html">Contactos</a>
+            <button class="btnLogin">Sesion</button>
+            
+    
+        </nav>
+    </header>
+    <a href="https://makeup.es/about/" class="whatsapp-link" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Logo-WhatsApp.png" alt="WhatsApp">
+
+    </a>
+
+    <div class="container">
+        <h1>Contactanos</h1>
+        <form id="contact-form">
+            <div class="form-group">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" placeholder="Ingresa tu nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" placeholder="Ingresa tu correo" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Registrame:</label>
+                <textarea id="message" name="message" placeholder="Escribe tu mensaje" required></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+        <div id="response-message"></div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

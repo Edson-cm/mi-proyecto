@@ -1,0 +1,143 @@
+
+body{
+   
+    background: url('../img/fondocontactos.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;  
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #afdce4;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    font-size: 14px;
+    color: #555;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#response-message {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whatsapp-link {
+    position: fixed;
+    bottom: 500px; 
+    left: 200px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #25d366; 
+    border-radius: 80%;
+    padding: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.whatsapp-link:hover {
+    transform: scale(150px); 
+}
+
+.whatsapp-link img {
+    width: 80px; 
+    height: 50px; 
+}
+.email-link {
+    position: fixed;
+    bottom: 500px; 
+    left: 2000px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1db928; 
+    border-radius: 80%;
+    padding: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.email-link {
+    background-color: #b7bf3c; 
+}
+
+.email-link:hover {
+    transform: scale(1.1); 
+}
+
+.email-link img {
+    width: 50px; 
+    height: 50px; 
+}
